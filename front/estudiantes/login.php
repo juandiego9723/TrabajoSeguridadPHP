@@ -28,6 +28,7 @@
    * recuperar clave
    */
   if (isset($_POST['btnRecuperarClave'])) {
+    echo("sirve");
     if (!empty($_POST['txtUsuario']) and !empty($_POST['txtCoreoElectronico'])) {
       $usuario = $_POST['txtUsuario'];
       $correoElectronico = $_POST['txtCoreoElectronico'];
@@ -125,11 +126,12 @@
                             <input type="password" class="form-control" name="txtCoreoElectronico"
                                 placeholder="Password">
                         </div>
+                        <input type="submit" name="btnRecuperarClave" class="btn btn-primary" value="Recuperar contraseña">
+                        <!-- <button type="button" name="btnRecuperarClave" class="btn btn-primary">Recuperar contraseña</button> -->
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" name="btnRecuperarClave" class="btn btn-primary">Recuperar contraseña</button>
                 </div>
             </div>
         </div>

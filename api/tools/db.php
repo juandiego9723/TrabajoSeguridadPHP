@@ -7,7 +7,7 @@
         /**
          * conexion con la base de datos, usada para cualquier proceso de manipulacion de datos
          */
-        $conexion = new PDO('mysql:host=localhost;dbname=lp3', 'root', 'root', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+        $conexion = new PDO('mysql:host=195.179.239.51;dbname=u849053379_lp3', 'u849053379_root', 'Diego12345.', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
         if ($conexion) {
             return $conexion;
         }

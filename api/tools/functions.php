@@ -27,10 +27,10 @@
 			$mail -> Host = 'smtp.hostinger.com';
 			$mail -> Port = 587;
 			$mail -> SMTPAuth = true;
-			$mail -> Username = 'recuperacion@fon-c.com';
-			$mail -> Password = 'Password00*';
-			$mail -> setFrom('recuperacion@fon-c.com', 'Recuperacion de contraseña fon-c.com');
-			$mail -> addReplyTo('recuperacion@fon-c.com', 'recuperacion');
+			$mail -> Username = 'recupera@jdiegocanon.com';
+			$mail -> Password = 'Diego4023.';
+			$mail -> setFrom('recupera@jdiegocanon.com', 'Recuperacion de contraseña jdiegocanon.com');
+			$mail -> addReplyTo('recupera@jdiegocanon.com', 'recuperacion');
 			$mail -> addAddress($correoElectronico, '');
 			$mail -> Subject = 'Codigo de seguridad';
 			$mail -> Body = $aleatorio;
