@@ -119,12 +119,12 @@
 
                         <div class="mb-3">
                             <label for="exampleDropdownFormPassword1" class="form-label">Usuario</label>
-                            <input type="password" class="form-control" name="txtUsuario" placeholder="Password">
+                            <input type="text" class="form-control" name="txtUsuario" placeholder="Usuario">
                         </div>
                         <div class="mb-3">
                             <label for="exampleDropdownFormPassword1" class="form-label">Correo Electronico</label>
-                            <input type="password" class="form-control" name="txtCoreoElectronico"
-                                placeholder="Password">
+                            <input type="text" class="form-control" name="txtCoreoElectronico"
+                                placeholder="Correo">
                         </div>
                         <input type="submit" name="btnRecuperarClave" class="btn btn-primary" value="Recuperar contraseña">
                         <!-- <button type="button" name="btnRecuperarClave" class="btn btn-primary">Recuperar contraseña</button> -->
