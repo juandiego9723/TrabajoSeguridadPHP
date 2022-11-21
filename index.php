@@ -19,7 +19,7 @@
 <body>
     <div class="d-flex flex-column  justify-content-center" style="height:100vh;">
         <div class="d-flex align-items-center justify-content-center">
-            <h1 class="navbar-brand">OnePieceSoftware</h1>
+            <h1 class="navbar-brand">Centro de Formación OnePieceSoftware</h1>
         </div>
         <div class="d-flex align-items-center justify-content-center">
 
